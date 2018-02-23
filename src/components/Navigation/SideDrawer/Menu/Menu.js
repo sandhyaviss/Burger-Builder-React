@@ -1,0 +1,16 @@
+ import React from 'react';
+ import Logo from '../../../Logo/Logo';
+ import classes from './Menu.css';
+
+const Menu = (props)=>{
+return(
+    <div >
+       <div className={classes.DrawerToggle} onClick={props.click}>
+            <div></div>
+            <div></div>
+            <div></div>
+       </div> 
+       </div>
+);
+}
+export default Menu;
