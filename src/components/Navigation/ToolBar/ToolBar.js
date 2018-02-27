@@ -8,8 +8,7 @@ import SideDrawer from '../SideDrawer/SideDrawer';
 const toolBar = (props)=>(
 <header className={classes.ToolBar}> 
     <div> <Menu  click={props.sideDrawerOpen} /></div>
-    <SideDrawer />
-        <div className={classes.Logo}>
+           <div className={classes.Logo}>
     <Logo height="80%" />
     </div> 
     <nav className={classes.DesktopOnly} >

@@ -23,7 +23,7 @@ import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';
         <Auxy>
       <div> Toolbar, SideDrawer, Backdrop </div>
       <ToolBar  sideDrawerOpen={this.sideDrawerMenuToggle}/>
-     <SideDrawer open={this.state.open} close={this.OpenSideDrawerHandler} />
+     <SideDrawer open={this.state.open} modalClosed={this.OpenSideDrawerHandler} />
       <main className={classes.Content}>
         {this.props.children}
       </main>

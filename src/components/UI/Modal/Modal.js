@@ -1,10 +1,12 @@
  import React,{Component} from 'react';
  import classes from './Modal.css';
+import Backdrop from '../Backdrop/Backdrop';
+import Auxy from '../../../hoc/Auxy/Auxy';
 
 class  Modal extends Component {
 
     shouldComponentUpdate(nextProps, nextState){
-        if(nextProps.show != this.props.show){
+        if(nextProps.show != this.props.show || nextProps.children !== this.props.children ){
             return true;
         }
     }
@@ -13,15 +15,19 @@ class  Modal extends Component {
         console.log("Order summery");
     }
     
-     render(){;
+     render(){
+        console.log(this.props.show+"In modal component show property");
      return(
+         <Auxy>
+         <Backdrop show={this.props.show} clicked={this.props.modalClosed} />
         <div className={classes.Modal}
         style={{
             transform: this.props.show ? 'translateY(0)' : 'translateY(-100vh)',
             opacity:this.props.show ? '1' : '0'
         }}>
          {this.props.children}    
-          </div>
+                   </div>
+                   </Auxy>         
      );}
 
 }

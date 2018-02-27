@@ -16,7 +16,7 @@ const SideDrawer = (props)=>{
       }
   return(
     <Auxy>
-         <Backdrop show={props.open} close={props.close}/>
+        <Backdrop show={props.open} clicked={props.modalClosed} />
          <div className={classes.SideDrawer} style={cssStyle}>
                        <div style={{height: '11%'}}>
             <Logo />
