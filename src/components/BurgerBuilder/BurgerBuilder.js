@@ -8,6 +8,8 @@ import Backdrop from '../UI/Backdrop/Backdrop';
 import axios from '../../axios-order';
 import Spinner from '../UI/Spinner/Spinner';
 import withErrorHandler from '../../hoc/withErrorHandler/withErrorHandler';
+import Checkout from '../../conatiner/Checkout/Checkout';
+import {Route,NavLink} from 'react-router-dom';
 
 const INGREDIENT_PRICES= {
     Cheese : 0.7,
@@ -33,6 +35,7 @@ class BurgerBuilder extends Component{
         ).catch(error=>{
             this.setState({error:true})
         });
+        console.log(this.props);
     }
   updatePurchasable=(ingredients)=>{
                 const sum=Object.keys(ingredients).map((keys)=>{
@@ -45,7 +48,7 @@ class BurgerBuilder extends Component{
 
        purschaseHandler = () =>{
            this.setState({ purschasing:true });
-       } 
+                  } 
 
        purschaseContinueHandler = () =>{
            //alert("continue shopping");
@@ -69,6 +72,7 @@ class BurgerBuilder extends Component{
               .catch(error =>{
                     this.setState({ loading:false,purschasing:false})
                            });
+             this.props.history.push('/checkout');
                              }
 
        cancelPurchaseHandler=()=>{
