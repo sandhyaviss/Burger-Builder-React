@@ -1,0 +1,18 @@
+
+.contactData{
+    box-shadow: 1px 1px 1px 2px gray;
+    box-sizing: border-box;
+    padding:20px;
+    margin:auto;
+    width: 80%;
+    text-align: center;
+}
+.contactDataItem{
+    margin:5px;
+}
+@media(min-width: 500px){
+    .contactData{
+        width: 400px;
+        text-align: center;
+    }
+}

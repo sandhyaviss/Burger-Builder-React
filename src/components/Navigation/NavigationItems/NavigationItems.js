@@ -5,8 +5,8 @@
 
 const NavigationItems = (props)=>(
 <ul className={classes.NavigationItems}>
-    <NavigationItem   > Burger Builder</NavigationItem>
-    <NavigationItem > Check Out </NavigationItem>
+    <NavigationItem  link="/" exact > Burger Builder</NavigationItem>
+    <NavigationItem link="/orders"> Orders </NavigationItem>
 </ul>
 );
 export default NavigationItems;
