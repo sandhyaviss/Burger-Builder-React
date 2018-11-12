@@ -1,9 +1,9 @@
-import React,{Component } from 'react';
+import React,{Component } from '../../../../AppData/Local/Microsoft/TypeScript/2.9/node_modules/@types/react';
 import CheckoutSummary from '../../components/Order/CheckoutSummary';
 import BurgerBuilder from '../../components/BurgerBuilder/BurgerBuilder';
-import { Route } from 'react-router-dom';
-import { connect } from 'react-redux';
-import ContactData from '../Checkout/contact-data/Contact-data';
+import { Route } from '../../../../AppData/Local/Microsoft/TypeScript/2.9/node_modules/@types/react-router-dom';
+import { connect } from '../../../../AppData/Local/Microsoft/TypeScript/2.9/node_modules/@types/react-redux';
+import ContactData from './contact-data/Contact-data';
 import axios from '../../axios-order';
 import 'url-search-params-polyfill';
 

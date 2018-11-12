@@ -1,6 +1,6 @@
- import React from 'react';
+ import React from '../../../../../../AppData/Local/Microsoft/TypeScript/2.9/node_modules/@types/react';
  import classes from './NavigationItem.css';
- import {NavLink } from 'react-router-dom';
+ import {NavLink } from '../../../../../../AppData/Local/Microsoft/TypeScript/2.9/node_modules/@types/react-router-dom';
 
 const NavigationItem = (props)=>(
     <li className={classes.NavigationItem}> 

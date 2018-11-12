@@ -1,4 +1,4 @@
- import React from 'react';
+ import React from '../../../../../AppData/Local/Microsoft/TypeScript/2.9/node_modules/@types/react';
  import Logo from '../../Logo/Logo';
  import NavigationItems from '../NavigationItems/NavigationItems';
  import classes from './SideDrawer.css';

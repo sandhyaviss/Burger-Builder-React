@@ -40,7 +40,7 @@ const reducer =(state=initialState,action)=>{
     case actionTypes.FETCH_INGREDIENT_FAILED:
     return {
         ...state,
-       // error:true
+        error:true
     }
 
     default:

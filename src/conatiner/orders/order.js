@@ -1,4 +1,4 @@
-import React from 'react';
+import React from '../../../../AppData/Local/Microsoft/TypeScript/2.9/node_modules/@types/react';
 import classes from '../orders/order.css';
 
 const order =(props)=>(

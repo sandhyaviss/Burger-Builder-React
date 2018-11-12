@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component } from '../../AppData/Local/Microsoft/TypeScript/2.9/node_modules/@types/react';
 import Layout from './hoc/layout/Layout';
 import BurgerBuilder from './components/BurgerBuilder/BurgerBuilder';
 import Checkout from './conatiner/Checkout/Checkout';
-import { Route,Switch } from 'react-router-dom';
-import Orders from '../src/conatiner/orders/orders';
+import { Route,Switch } from '../../AppData/Local/Microsoft/TypeScript/2.9/node_modules/@types/react-router-dom';
+import Orders from './conatiner/orders/orders';
  
 class App extends Component {
     render() {

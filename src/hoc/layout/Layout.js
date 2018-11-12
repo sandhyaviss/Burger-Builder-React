@@ -1,5 +1,5 @@
-import React,{ Component} from 'react';
-import Auxy from '../../hoc/Auxy/Auxy';
+import React,{ Component} from '../../../../AppData/Local/Microsoft/TypeScript/2.9/node_modules/@types/react';
+import Auxy from '../Auxy/Auxy';
 import classes from './Layout.css';
 import ToolBar from '../../components/Navigation/ToolBar/ToolBar';
 import SideDrawer from '../../components/Navigation/SideDrawer/SideDrawer';

@@ -1,4 +1,4 @@
- import React from 'react';
+ import React from '../../../../../AppData/Local/Microsoft/TypeScript/2.9/node_modules/@types/react';
  import Auxy from '../../../hoc/Auxy/Auxy';
  import Button from '../../UI/Button/Button';
  import classes from '../../UI/Button/Button.css';

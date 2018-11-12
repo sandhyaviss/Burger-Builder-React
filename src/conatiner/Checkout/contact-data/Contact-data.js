@@ -1,10 +1,10 @@
-import React,{Component } from 'react';
+import React,{Component } from '../../../../../AppData/Local/Microsoft/TypeScript/2.9/node_modules/@types/react';
 import classes from './Contact-data.css';
 import Button from '../../../components/UI/Button/Button';
 import axios from '../../../axios-order';
 import  Input from '../../../components/UI/Form/Input';
 import Spinner from '../../../components/UI/Spinner/Spinner';
-import {connect} from 'react-redux';
+import {connect} from '../../../../../AppData/Local/Microsoft/TypeScript/2.9/node_modules/@types/react-redux';
 
 class ContactData extends Component{
     state ={

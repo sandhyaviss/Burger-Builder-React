@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component} from '../../../../AppData/Local/Microsoft/TypeScript/2.9/node_modules/@types/react';
 import axios from '../../axios-order';
 import Order from './order';
 import withErrorHandler from '../../hoc/withErrorHandler/withErrorHandler';

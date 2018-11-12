@@ -1,5 +1,5 @@
 import classes from './Input.css';
-import React from 'react';
+import React from '../../../../../AppData/Local/Microsoft/TypeScript/2.9/node_modules/@types/react';
 
 const Input = (props) =>{
     let InputElement=null;
